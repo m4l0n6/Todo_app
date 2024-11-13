@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ct-menu-item{
+    @apply p-6 flex items-center justify-center cursor-pointer hover:opacity-80 hover:bg-slate-900 transition duration-300;
+}
+
+.ct-modal-input{
+    @apply w-full outline-none border border-gray-900 rounded mb-2 p-2;
+}
+
+.ct-buttom-transition{
+    @apply transition ease-in-out duration-300;
+}
+
